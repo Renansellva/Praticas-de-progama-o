@@ -1,0 +1,14 @@
+h2{
+    color: brown;
+}
+.principio{
+    margin-left: 2px;
+    color: aquamarine;
+}
+li{
+    display: inline;
+}
+
+.oculto {
+    display: none;
+}
