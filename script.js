@@ -1,3 +1,5 @@
+// alert("olá programadores");
+
 document.getElementById('toggle-link').addEventListener('click', function(event) {
     event.preventDefault(); // Evita o comportamento padrão do link
 
@@ -9,6 +11,8 @@ document.getElementById('toggle-link').addEventListener('click', function(event)
     }
 });
 
-
-
+function Ola(){
+    let input = prompt("Digite Seu nome");
+    document.getElementById("result").innerText = "Bem vindo "+ input;
+}
       
